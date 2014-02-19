@@ -1,0 +1,55 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>Assignment #4 - Inline Elements</title>
+<style>
+.clean {
+  list-style-type: none;
+}
+body {
+  color: black;
+}
+.square {
+  list-style-type: square;
+}
+</style>
+</head>
+<body>
+<h2>Unordered List</h2>
+<p>
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+</p>
+<h2>Unordered List without style type</h2>
+<p>
+<ul class="clean">
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+</p>
+<h2>Ordered List</h2>
+<p>
+<ol>
+  <li>Part 1</li>
+  <li>Part 2</li>
+  <li>Part 3</li>
+</ol>
+</p>
+<h2>Ordered List with nested levels</h2>
+<p>
+<ol>
+  <li>Part 1</li>
+  <li>Part 2</li>
+    <ol>
+      <li>Subpart 1</li>
+      <li>Subpart 2</li>
+      <li>Subpart 3</li>
+    </ol>
+  <li>Part 3</li>
+</ol>
+</p>
+<body>
